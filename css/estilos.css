@@ -175,10 +175,6 @@ main h2 p {
 @media screen and (min-width : 320px) and (max-width : 768px) {
 
 
-        body{
-            background-color: aqua;
-        }
-
     
         .imagen-inicio{
             width: 300px;
