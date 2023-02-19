@@ -27,6 +27,10 @@ header{
     margin: 10px; 
 }
 
+.imagen-banner{
+    filter: brightness(0.7);
+}
+
 header nav ul{
     list-style: none;
     display: flex;
