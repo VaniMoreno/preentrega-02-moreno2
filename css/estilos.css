@@ -489,12 +489,14 @@ main h2 p {
 .pregunta{
     margin: 30px;
     display: flex;
+    flex-direction: column;
 }
 
 .preguntas{
     margin-top: 20px;
     margin-bottom: 10px;
     width: 1fr;
+    margin: auto;
 }
 
 .imagen-pregunta{
@@ -504,18 +506,33 @@ main h2 p {
 .pregunta-uno{
     margin: 20px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: auto;
+    align-items: center;
+
 
 }
 
 .pregunta-dos{
     margin: 20px;
-    padding: 10px;
+    padding: 10px;    
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: auto;
+    align-items: center;
+    
+
 
 }
 
 .pregunta-tres{
     margin: 20px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: auto;
+    align-items: center;
 
 }
 
